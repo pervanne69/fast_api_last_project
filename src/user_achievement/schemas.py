@@ -1,0 +1,1 @@
+from fastapi_users import schemasclass UserAchievementRead(schemas.BaseModel):    id: int    user_id: int    achievement_id: intclass UserAchievementElement(schemas.BaseModel):    user_id: int    achievement_id: int

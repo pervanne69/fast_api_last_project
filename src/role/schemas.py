@@ -1,0 +1,1 @@
+from fastapi_users import schemasfrom pydantic import Jsonfrom sqlalchemy import JSONclass RoleRead(schemas.BaseModel):    id: int    name: str    permission: strclass RoleChange(schemas.BaseModel):    dev_email: str    dev_password: str    user_id: int    user_email: str    role_id_change: int

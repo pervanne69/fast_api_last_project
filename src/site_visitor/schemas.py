@@ -1,0 +1,1 @@
+import datetimefrom fastapi_users import schemasclass SiteVisitorRead(schemas.BaseModel):    id: int    user_id: int    site_id: intclass SiteVisitorElement(schemas.BaseModel):    user_id: int    site_id: int

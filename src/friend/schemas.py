@@ -1,0 +1,1 @@
+from fastapi_users import schemasclass FriendRead(schemas.BaseModel):    id: int    user_id: int    friend_id: int    friend_request: boolclass FriendCreate(schemas.BaseModel):    user_id: int    friend_id: int

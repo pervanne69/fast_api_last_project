@@ -1,0 +1,1 @@
+from fastapi_users import schemasclass UserTicketRead(schemas.BaseModel):    id: int    user_id: int    ticket_id: int

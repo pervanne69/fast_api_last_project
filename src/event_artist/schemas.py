@@ -1,0 +1,1 @@
+import datetimefrom fastapi_users import schemasclass EventArtistRead(schemas.BaseModel):    id: int    event_id: int    artist_id: intclass EventArtistElement(schemas.BaseModel):    event_id: int    artist_id: int
